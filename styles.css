@@ -284,6 +284,35 @@ p {
 
 .booking .button { margin-top: 18px; }
 
+.booking-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fbf7f2;
+}
+
+.booking-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.booking-section p {
+  max-width: 650px;
+  margin: 0 auto 28px;
+}
+
+.booking-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.small-note {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  margin-top: 24px;
+}
+
 footer {
   text-align: center;
   padding: 28px 7%;
