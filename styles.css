@@ -282,6 +282,36 @@ p {
 
 .feature { text-align: center; }
 
+.officiant-section {
+  padding: 80px 20px;
+  background: white;
+}
+
+.officiant-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.officiant-photo {
+  width: 350px;
+  border-radius: 24px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.officiant-text {
+  flex: 1;
+}
+
+.officiant-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
 .booking .button { margin-top: 18px; }
 
 .booking-section {
